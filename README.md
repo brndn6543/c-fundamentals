@@ -4,5 +4,5 @@ ever-growing repository.
 
 ## Current Contents
 1. **Passing pointers as parameters to functions**
-`function_pointer_parameters-demo.c`
+`src/function_pointer_parameters_demo.c`
 
