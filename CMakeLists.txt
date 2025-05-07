@@ -10,12 +10,14 @@ include_directories(${PROJECT_SOURCE_DIR}/include)
 
 
 add_executable(
-        function_pointers_demo
+        function_parameters_pointers_demo
         src/function_pointer_parameters_demo.c
+        include/function_parameters_pointers.h
 )
 
 # Main executable.
 add_executable(
-        main_demo
+        c_fundamentals
         src/main.c
+        src/function_pointer_parameters_demo.c
 )
