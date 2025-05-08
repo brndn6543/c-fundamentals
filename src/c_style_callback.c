@@ -11,7 +11,7 @@ typedef void (*ClickHandler)(void *context);
 // Simulate pressing the button: invoke callback if set.
 void pressButton(const Button *btn) {
     printf("Pressed button %s\n", btn->label);
-    if (btn->onClick != NULL)
+    if (btn->onClick != NULL) {
         // Invoke the method and pass it context.
         btn->onClick(btn->context);
     }
