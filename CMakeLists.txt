@@ -15,9 +15,16 @@ add_executable(
         include/function_parameters_pointers.h
 )
 
+add_executable(
+        function_pointers_demo
+        src/function_pointers_demo.c
+        include/function_pointers_demo.h
+)
+
 # Main executable.
 add_executable(
         c_fundamentals
         src/main.c
         src/function_pointer_parameters_demo.c
+        src/function_pointers_demo.c
 )
