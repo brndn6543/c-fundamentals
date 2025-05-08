@@ -21,10 +21,18 @@ add_executable(
         include/function_pointers_demo.h
 )
 
+add_executable(
+        c_style_callback
+        src/c_style_callback.c
+        include/c_style_callback.h
+)
+
 # Main executable.
 add_executable(
         c_fundamentals
         src/main.c
         src/function_pointer_parameters_demo.c
         src/function_pointers_demo.c
+        include/c_style_callback.h
+        src/c_style_callback.c
 )

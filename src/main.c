@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+
+#include "c_style_callback.h"
 #include "function_parameters_pointers.h"
 #include "function_pointers_demo.h"
 
@@ -32,4 +32,16 @@ int main(void) {
 
     printf("%d\n", result);
 
+
+    printf("\n");
+    printf("--- Function Pointers ---\n");
+    Button btn = {
+        .label = "Greet",
+        .onClick = greetUser,
+        .context = "Brandon"
+    };
+
+    pressButton(&btn);
+
+    return 0;
 }
