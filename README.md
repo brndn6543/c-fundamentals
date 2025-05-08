@@ -9,3 +9,7 @@ ever-growing repository.
 
 2. **Using pointer functions**
    `src/function_pointer_demo.c`
+
+
+3. **Using C Style Callbacks**
+   `src/c_style_callback.c`
