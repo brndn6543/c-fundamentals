@@ -1,9 +1,15 @@
 cmake_minimum_required(VERSION 3.31)
-project(c_fundamentals C)
 
-# Use C11
-set(CMAKE_C_STANDARD 11)
-set(CMAKE_C_STANDARD_REQUIRED ON)
+# Enable both C and C++.
+project(c_fundamentals LANGUAGES C CXX)
+
+# Use C11.
+set(CMAKE_C_STANDARD            11)
+set(CMAKE_C_STANDARD_REQUIRED   ON)
+
+# Use C++20.
+set(CMAKE_CXX_STANDARD          20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # Headers.
 include_directories(${PROJECT_SOURCE_DIR}/include)
@@ -11,28 +17,30 @@ include_directories(${PROJECT_SOURCE_DIR}/include)
 
 add_executable(
         function_parameters_pointers_demo
-        src/function_pointer_parameters_demo.c
-        include/function_parameters_pointers.h
+        src/c/function_pointer_parameters_demo.c
 )
 
 add_executable(
         function_pointers_demo
-        src/function_pointers_demo.c
-        include/function_pointers_demo.h
+        src/c/function_pointers_demo.c
 )
 
 add_executable(
         c_style_callback
-        src/c_style_callback.c
-        include/c_style_callback.h
+        src/c/c_style_callback.c
 )
 
 # Main executable.
 add_executable(
         c_fundamentals
-        src/main.c
-        src/function_pointer_parameters_demo.c
-        src/function_pointers_demo.c
-        include/c_style_callback.h
-        src/c_style_callback.c
+        src/c/main.c
+        src/c/function_pointer_parameters_demo.c
+        src/c/function_pointers_demo.c
+        src/c/c_style_callback.c
+)
+
+# C++ Target.
+add_executable(
+        cpp_fundamentals
+        src/cpp/virtual_methods_demo.cpp
 )

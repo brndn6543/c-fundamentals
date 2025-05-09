@@ -4,12 +4,17 @@ ever-growing repository.
 
 ## Current Contents
 1. **Passing pointers as parameters to functions**
-`src/function_parameters_pointers.c`
+`src/c/function_parameters_pointers.c`
 
 
 2. **Using pointer functions**
-   `src/function_pointer_demo.c`
+   `src/c/function_pointer_demo.c`
 
 
 3. **Using C Style Callbacks**
-   `src/c_style_callback.c`
+   `src/c/c_style_callback.c`
+
+
+4. **Virtual Methods**
+
+`src/cpp/virtual_methods_demo.cpp`
