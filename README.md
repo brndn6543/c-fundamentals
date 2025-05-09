@@ -17,3 +17,7 @@ ever-growing repository.
 
 4. **Virtual Methods**
    `src/cpp/virtual_methods_demo.cpp`
+
+
+5. **C++ Vectors**
+   `src/cpp/vector_demo.cpp`

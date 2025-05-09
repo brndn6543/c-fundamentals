@@ -41,6 +41,11 @@ add_executable(
 
 # C++ Target.
 add_executable(
-        cpp_fundamentals
+        virtual_methods_demo
         src/cpp/virtual_methods_demo.cpp
+)
+
+add_executable(
+        vector_demo
+        src/cpp/vector_demo.cpp
 )
