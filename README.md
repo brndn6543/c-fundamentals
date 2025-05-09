@@ -16,5 +16,4 @@ ever-growing repository.
 
 
 4. **Virtual Methods**
-
-`src/cpp/virtual_methods_demo.cpp`
+   `src/cpp/virtual_methods_demo.cpp`
