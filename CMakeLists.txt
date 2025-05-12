@@ -30,6 +30,7 @@ add_executable(
         src/c/c_style_callback.c
 )
 
+
 # Main executable.
 add_executable(
         c_fundamentals
@@ -48,4 +49,9 @@ add_executable(
 add_executable(
         vector_demo
         src/cpp/vector_demo.cpp
+)
+
+add_executable(
+        make_unique
+        src/cpp/make_unique_demo.cpp
 )

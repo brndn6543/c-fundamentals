@@ -21,3 +21,7 @@ ever-growing repository.
 
 5. **C++ Vectors**
    `src/cpp/vector_demo.cpp`
+
+
+6. **C++ unique_ptr and make_unique**
+   `src/cpp/vector_demo.cpp`
