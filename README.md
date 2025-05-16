@@ -19,9 +19,17 @@ ever-growing repository.
    `src/cpp/virtual_methods_demo.cpp`
 
 
-5. **C++ Vectors**
+5. **Vectors**
    `src/cpp/vector_demo.cpp`
 
 
 6. **C++ unique_ptr and make_unique**
    `src/cpp/vector_demo.cpp`
+
+
+7. **C++ unordered maps**
+   `src/cpp/unordered_map.cpp`
+
+
+8. **C++ contains method**
+   `src/cpp/contains_method.cpp`

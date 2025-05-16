@@ -55,3 +55,5 @@ add_executable(
         make_unique
         src/cpp/make_unique_demo.cpp
 )
+add_executable(unordered_map src/cpp/unordered_map.cpp)
+add_executable(contains_method src/cpp/contains_method.cpp)
